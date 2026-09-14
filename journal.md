@@ -1,7 +1,7 @@
-title: "SalahTracker"
-author: "Alimzhan"
-description: "Device that shows prayer time and Qibla direction anywhere & anytime without internet connection!"
-created_at: "2026-09-14"
+title: "SalahTracker"  
+author: "Alimzhan"  
+description: "Device that shows prayer time and Qibla direction anywhere & anytime without internet connection!"  
+created_at: "2026-09-14"  
 ---
 
 # July 28-30: Finished procrastinating!
