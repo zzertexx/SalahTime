@@ -1,6 +1,29 @@
 # SalahTime
-Know when to read Salah anywhere with sky
+Device that shows prayer time and Qibla direction anywhere & anytime without any internet connection
+<img width="2298" height="3498" alt="Zine" src="https://github.com/user-attachments/assets/e221e65e-4aac-461b-958f-1c764192fc8f" />
 
+## What is it?
+It is an ESP32-powered device with buttons, GNSS receiver, RTC, magnetic sensor, and E-Paper display. By using all of these, it is planned to show prayer time using latitude and longitude alongside with direction to Qibla by magnetic sensor. Because there is an E-Paper display, battery can last for many-many days. If the battery will be drained, it is easy to charge using universal Type-C port. Currently, it shows prayer time based on location, but will have full interface and direction to Qibla in the future.
+
+## Why did I build it?
+I was walking in Shenzhen after Fallout with my phone died and then realized that I have to read Salah
+I could not know if the next salah already started and I needed the direction to Qibla
+Strangers there do not understand English, so I could not communicate with them
+Then, I got an idea of internet-free device that can predict prayer time and show the direction to Qibla
+
+## Steps to Reproduce
+1. Order PCB and parts from any provider(Example: JLCPCB)
+2. Assemble and solder parts to PCB
+3. 3D Print CAD models from "CAD" folder
+4. Push software into MCU and download required libraries using Arduino IDE 
+5. Use!
+
+## Arduino IDE Libraries:
+GxEPD2
+TinyGPS++
+RTClib
+
+## Bill of Materials
 | Name | Quantity | Price |
 | --- | --- | --- |
 | DS3231M RTC | 1 | 3.25$ |
@@ -44,3 +67,14 @@ Know when to read Salah anywhere with sky
 | 499 R | 1 | 0.01$ |
 | 0 R | 1 | 0.01$ |
 | 10pF Crystal | 1 | 0.3$ | 
+| TOTAL: | 26$ |
+
+## Images
+<img width="1920" height="1080" alt="salah_tracker" src="https://github.com/user-attachments/assets/48cdc31d-170c-485c-80e0-01c66805ff1f" />
+<img width="1920" height="1080" alt="salah_tracker2" src="https://github.com/user-attachments/assets/b2ca6a53-ccb7-42b1-838c-6b09cbc7a980" />
+[schematics.pdf](https://github.com/user-attachments/files/32201017/schematics.pdf)
+<img width="1230" height="831" alt="PCB_Front" src="https://github.com/user-attachments/assets/c521ee1a-41ee-4769-b55d-5fb4604b6de5" />
+<img width="1260" height="926" alt="PCB_Behind" src="https://github.com/user-attachments/assets/bc01117f-ce0a-4337-bb0a-a14fcc366712" />
+
+## AI DISCLOSURE
+AI was used to search components and to write computing algorithm
