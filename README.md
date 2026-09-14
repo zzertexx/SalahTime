@@ -1,6 +1,9 @@
 # SalahTime
-Know when to read Salah anywhere with sky
+Device that shows prayer time and Qibla direction anywhere & anytime without any internet connection
+<img width="2298" height="3498" alt="Zine" src="https://github.com/user-attachments/assets/e221e65e-4aac-461b-958f-1c764192fc8f" />
 
+
+## Bill of Materials
 | Name | Quantity | Price |
 | --- | --- | --- |
 | DS3231M RTC | 1 | 3.25$ |
@@ -44,3 +47,4 @@ Know when to read Salah anywhere with sky
 | 499 R | 1 | 0.01$ |
 | 0 R | 1 | 0.01$ |
 | 10pF Crystal | 1 | 0.3$ | 
+| TOTAL: | 26$ |
