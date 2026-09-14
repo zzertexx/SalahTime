@@ -76,3 +76,5 @@ RTClib
 <img width="1230" height="831" alt="PCB_Front" src="https://github.com/user-attachments/assets/c521ee1a-41ee-4769-b55d-5fb4604b6de5" />
 <img width="1260" height="926" alt="PCB_Behind" src="https://github.com/user-attachments/assets/bc01117f-ce0a-4337-bb0a-a14fcc366712" />
 
+## AI DISCLOSURE
+AI was used to search components and to write computing algorithm
