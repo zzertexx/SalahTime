@@ -1,4 +1,3 @@
-<img width="554" height="312" alt="image" src="https://github.com/user-attachments/assets/127fa57a-e483-464e-b9e9-e704a2ae4e07" />---
 title: "SalahTracker"
 author: "Alimzhan"
 description: "Device that shows prayer time and Qibla direction anywhere & anytime without internet connection!"
@@ -92,5 +91,8 @@ Finished firmware
 Made 3D Enclosure
 Organized repo
 Wrote Journal.md
+
+<img width="554" height="312" alt="image" src="https://github.com/user-attachments/assets/127fa57a-e483-464e-b9e9-e704a2ae4e07" />---
+
 
 **Total time spent: 5h:00**
